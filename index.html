@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title id="title">Budget Calculator</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles2.css" >
+    <!-- endbuild -->
+
+</head>
+
+<body>
+    <h2>Budget Calculator</h2>
+    <br>
+    <div class="container">
+        
+
+    <div class="row row-content center-block">
+          <div class="col-12"><p id="description">Let us know how we can improve your Spendings</p></div>
+           
+           <div class="col-3"></div>
+            <div class="col-6">
+              <form action="formatted_page.html">             
+                <div id="survey-form">
+                        <div class="form-group row">
+                            
+                            <label for="income" class="col-md-4 col-form-label" >*Income:</label>
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control" id="income-label" name="income" 
+                                    placeholder="Enter your income" required>
+                        
+                                </div>
+                        </div>
+                            
+                        <div class="form-group row">
+                              <label for="age" class="col-md-4 col-form-label">*Age:</label>
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control" id="age-label" name="age" 
+                                    placeholder="Age" required>
+                                </div>
+                        </div>
+
+                        <div class="form-group row">
+                              <label for="gender" class="col-md-4 col-form-label">*Gender:</label>
+                                
+                              <div class="col-md-8">
+                                    
+                                     <div class="form-check">
+                                        <label id="somelabel" class="form-check-label">
+                                        <input type="radio" required class="form-check-input" name="optradio">Male
+                                        </label>
+                                        <label id="somelabel" class="form-check-label">
+                                          <input type="radio" required class="form-check-input" name="optradio">Female
+                                          </label>
+                                     </div><br>
+                              </div>
+                        </div>
+
+                        <div class="form-group row">
+                              <label for="lastname" class="col-md-4 col-form-label">*Marital Status:</label>
+                                  <div class="col-md-8">
+                                    <select class="form-control" required>
+                                        <option value="">None</option>                                     
+                                        <option value="single">Single</option>
+                                        <option value="married">Married</option>
+                                        <option value="divorced">Divorced</option>
+                                        <option value="not_to_say">Prefer Not to Say</option>
+                                    </select>
+                                  </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label for="dependants" class="col-md-4 col-form-label">*Dependants:</label>
+                            <div class="col-md-8" >
+                                <input type="number" class="form-control" id="dependants" name="dependants" 
+                                 placeholder="No of Dependants" required>
+                            </div>
+                        </div>
+                            
+                        <div class="form-group row">
+                          <div class="offset-md-2 col-md-10">
+                            <input type="submit" value="Calculate" class="btn btn-info">
+                          </div>
+                        </div>
+                        
+                </div>
+              </form>  
+       </div>
+      
+
+    </div>
+
+    
+    <!-- Bootstrap JS. -->
+        
+    <script src="./javascript/bootstrap.min.js"></script>
+    
+
+</body>
+
+</html>

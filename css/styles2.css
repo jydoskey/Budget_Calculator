@@ -1,0 +1,53 @@
+ /* New styles for the form element*/
+.naira{font-family:Tahoma,Arial Unicode MS,Lucida Sans Unicode}
+.checkboxes label {
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+    
+}
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
+}
+
+ 
+ #somelabel{
+  float: left;
+clear:left;  
+}
+
+    .row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+    text-align:center;
+}
+
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+background-color: #F0F0F0;}
+
+
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+
+.container {
+  width: fit-content;
+ }
+
+    
