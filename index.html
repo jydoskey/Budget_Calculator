@@ -19,7 +19,16 @@
    <script>
     function showMessage(){
             var income = document.getElementById("income").value;
-            savings.innerHTML= income;
+            savings.innerHTML= income * 0.2;
+            medical.innerHTML= income * 0.1;
+            transport.innerHTML= income * 0.08;
+            shopping.innerHTML= income * 0.08;
+            groceries.innerHTML= income * 0.15;
+            internet.innerHTML= income * 0.04;
+            miscellaneous.innerHTML= income * 0.07;
+            tax.innerHTML= income * 0.05;
+            subscription.innerHTML= income * 0.03;
+            investment.innerHTML= income * 0.2;
         }
    </script>
 
@@ -119,52 +128,52 @@
                      <tr>
                          <th>Savings</th>
                          <td>20%</td>
-                         <td><span class="naira" id="savings">₦</span></td>                                             
+                         <td>₦<span class="naira" id="savings"></span></td>                                             
                      </tr>
                      <tr>
                          <th>Medical</th>
                          <td>10%</td>
-                         <td><span class="naira" id="medical">₦</span></td>                                             
+                         <td>₦<span class="naira" id="medical"></span></td>                                             
                      </tr>
                      <tr>
                          <th>Transport</th>
                          <td>8%</td>
-                         <td><span class="naira" id="transport">₦</span></td>                                             
+                         <td>₦<span class="naira" id="transport"></span></td>                                             
                      </tr>
                      <tr>
                          <th>Shopping</th>
                          <td>8%</td>
-                         <td><span class="naira" id="shopping">₦</span></td> 
+                         <td>₦<span class="naira" id="shopping"></span></td> 
                      </tr>
                      <tr>
                         <th>Groceries</th>
                         <td>15%</td>
-                        <td><span class="naira" id="groceries">₦</span></td> 
+                        <td>₦<span class="naira" id="groceries"></span></td> 
                     </tr>
                     <tr>
                         <th>Internet</th>
                         <td>4%</td>
-                        <td><span class="naira" id="internet">₦</span></td> 
+                        <td>₦<span class="naira" id="internet"></span></td> 
                     </tr>
                     <tr>
                         <th>Miscellaneous</th>
                         <td>7%</td>
-                        <td><span class="naira" id="miscellaneous">₦</span></td> 
+                        <td>₦<span class="naira" id="miscellaneous"></span></td> 
                     </tr>
                     <tr>
                         <th>Tax</th>
                         <td>5%</td>
-                        <td><span class="naira" id="tax">₦</span></td> 
+                        <td>₦<span class="naira" id="tax"></span></td> 
                     </tr>
                     <tr>
                         <th>Subscription</th>
                         <td>3%</td>
-                        <td><span class="naira" id="subscription">₦</span></td> 
+                        <td>₦<span class="naira" id="subscription"></span></td> 
                     </tr>
                     <tr>
                         <th>Investment</th>
                         <td>20%</td>
-                        <td><span class="naira" id="investment">₦</span></td> 
+                        <td>₦<span class="naira" id="investment"></span></td> 
                     </tr>
                  </tbody>
              </table>
