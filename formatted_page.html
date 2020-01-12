@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles2.css" >
     <!-- endbuild -->
+    <script>
+    function calculate() {
+  income = document.getElementById("income").value;
+  savings = (income * 0.20);
+  medical = (income * 0.10);
+  transport = (income * 0.08);
+  shopping = (income * 0.08);
+  groceries = (income * 0.15);
+  internet = (income * 0.04);
+  miscellaneous = (income * 0.07);
+  tax = (income * 0.05);
+  subscription = (income * 0.03);
+  investment = (income * 0.20);
+}
+
+
+    </script>
 
 </head>
 
@@ -33,59 +50,58 @@
                                              <th>Budget Category</th>
                                              <th>Percentage(%)</th>
                                              <th>Spendings<span class="naira">(₦)</span></th>
-                                             
                                          </tr>
                                      </thead>
                                      <tbody>
                                          <tr>
                                              <th>Savings</th>
                                              <td>20%</td>
-                                             <td><span class="naira">₦</span>30</td>                                             
+                                             <td><span class="naira" id="savings">₦</span></td>                                             
                                          </tr>
                                          <tr>
                                              <th>Medical</th>
                                              <td>10%</td>
-                                             <td><span class="naira">₦</span>45000</td>                                             
+                                             <td><span class="naira" id="medical">₦</span></td>                                             
                                          </tr>
                                          <tr>
                                              <th>Transport</th>
                                              <td>8%</td>
-                                             <td><span class="naira">₦</span>20</td>                                             
+                                             <td><span class="naira" id="transport">₦</span></td>                                             
                                          </tr>
                                          <tr>
                                              <th>Shopping</th>
                                              <td>8%</td>
-                                             <td><span class="naira">₦</span>1,250,375</td> 
+                                             <td><span class="naira" id="shopping">₦</span></td> 
                                          </tr>
                                          <tr>
                                             <th>Groceries</th>
                                             <td>15%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="groceries">₦</span></td> 
                                         </tr>
                                         <tr>
                                             <th>Internet</th>
                                             <td>4%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="internet">₦</span></td> 
                                         </tr>
                                         <tr>
                                             <th>Miscellaneous</th>
                                             <td>7%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="miscellaneous">₦</span></td> 
                                         </tr>
                                         <tr>
                                             <th>Tax</th>
                                             <td>5%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="tax">₦</span></td> 
                                         </tr>
                                         <tr>
                                             <th>Subscription</th>
                                             <td>3%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="subscription">₦</span></td> 
                                         </tr>
                                         <tr>
                                             <th>Investment</th>
                                             <td>20%</td>
-                                            <td><span class="naira">₦</span>1,250,375</td> 
+                                            <td><span class="naira" id="investment">₦</span></td> 
                                         </tr>
                                      </tbody>
                                  </table>
